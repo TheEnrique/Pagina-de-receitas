@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "lato", Arial, Helvetica, sans-serif;
+}
+
+#TopBar{
+    background-color: #ff6b28;
+    display: flex;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#Cabecalho{
+    background-image: url(./images/hero_bolo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+main{
+    margin: auto;
+    max-width: 990px;
+    padding: 0 40px;
+    margin-top: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #ff6b28;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.Cartão{
+    
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.Cartão:hover{
+box-shadow: 8px 8px 15px 12px rgba(205, 205, 105, 0.25);}
+
+.ingredientes:hover{
+    cursor: url(./images/cursor_ingredientes.png), default;
+}
+
+
+.preparo{
+    cursor: url(./images/cursor_preparo.png), default;
+}
+
+a{
+   list-style: none;
+   color: #ff6b28;
+}
+
+.botao-comprar{
+    background-color: #ff6b28;
+    padding: 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 14px;
+}
+
+.lista-ingredientes{
+    margin-bottom: 50px;
+}
+
+.instruções{
+    cursor: url(./images/cursor_intrucoes.png),default;
+}
+
+footer{
+    background-color: #ff6b28;
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TituloFooter{
+    color: white;
+}
+
+.lista-footer{
+    list-style: none;
+    color: white;
+    flex-direction: row;
+}
+
+.lista-horizontal{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    margin: 10px;
+}
+
+.Logos{
+    width: 30px;
+}
